@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@tldraw/tldraw": "2.0.0-alpha.17",
+    "axios": "^1.6.2",
     "canvas-size": "^1.2.6",
+    "https-proxy-agent": "^7.0.2",
     "next": "14.0.1",
     "prismjs": "^1.29.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tunnel": "^0.0.6"
   },
   "devDependencies": {
     "@types/canvas-size": "^1.2.1",
@@ -22,6 +25,7 @@
     "@types/prismjs": "^1.26.3",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/tunnel": "^0.0.6",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.1",
